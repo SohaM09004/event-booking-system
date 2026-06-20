@@ -73,6 +73,25 @@ http://localhost:5173
 
 ---
 
+## Adding Events
+
+## Seeding Sample Events
+
+As the assignment did not require a event adding API, I used the seed script to
+To populate the database with sample events and seats, to run the script:
+
+```bash
+npm run seed
+```
+
+This script creates sample events along with their associated seats, allowing the application to be tested immediately without manually creating event data.
+
+Assumption:
+
+* The seed script can be run on an empty database.
+* Existing seeded data should be cleared before re-running the script (if applicable).
+
+
 ## Assumptions
 
 * A user can reserve a maximum of 5 seats at a time.
