@@ -13,6 +13,7 @@ A full-stack event seat reservation and booking platform built using React, Node
 * Automatic Reservation Expiry
 * Protected Routes
 * Responsive UI using Tailwind CSS
+* A global Error Handler to ensure consistent API responses
 
 
 ## Tech Stack
@@ -47,8 +48,9 @@ Refer the .env.example file
 
 Start the server:
 
+```bash
 npm run dev
-
+```
 
 Backend runs on:
 
@@ -60,10 +62,11 @@ http://localhost:5000
 
 ## Running the Frontend
 
-
+```bash
 cd frontend
 npm install
 npm run dev
+```
 
 Frontend runs on:
 
